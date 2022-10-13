@@ -1,0 +1,223 @@
+body {
+  box-sizing: border-box;
+  margin-left: 1.5rem;
+}
+h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+h2 {
+  font-size: 1.5rem;
+}
+p,
+h2,
+a {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+.meniu i {
+  height: 2rem;
+}
+nav {
+  display: none;
+}
+nav > a {
+  text-decoration: none;
+  color: #555555;
+  padding: 0.8rem;
+}
+.pinkText {
+  color: #ff3998;
+}
+.greyText,
+.greyLink,
+.list > div {
+  color: #555555;
+}
+.boom > img {
+  width: 10.3125rem;
+  height: 3.125rem;
+  object-fit: cover;
+  object-position: 0 -20%;
+}
+.bottom {
+  color: #999999;
+}
+.graphic > img {
+  height: 20rem;
+  margin-right: -10rem;
+  margin-top: -2rem;
+  position: relative;
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+}
+.heroText {
+  padding: 1rem;
+  z-index: 1;
+}
+.upshell {
+  background-image: url(./background.svg);
+  background-repeat: no-repeat;
+  border-radius: 0;
+  background-size: cover;
+  padding: 4rem 1rem 1rem 1rem;
+}
+.fuImage {
+  width: 12.875rem;
+  height: 29.1875rem;
+  margin-right: -3rem;
+}
+.icon1 {
+  margin: -1px;
+}
+.Open {
+  display: none;
+}
+.press {
+  flex-wrap: wrap;
+  display: flex;
+  padding: 2rem;
+  justify-content: space-between;
+}
+.bigerFont {
+  font-size: 2rem;
+}
+.shIcons {
+  display: flex;
+  flex-flow: row;
+  padding: 3rem 0;
+}
+.iconImg {
+  margin-bottom: -4px;
+  background-size: contain;
+}
+.iconList {
+  background: #eeeeee;
+  padding: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 0 0 1rem 1rem;
+}
+.iconLright {
+  text-align: end;
+}
+.orange {
+  color: #ff8139;
+}
+.dark3 {
+  color: #777777;
+}
+.shIcons {
+  overflow-x: auto;
+  display: flex;
+  gap: 2rem;
+}
+.footerUp {
+  padding-top: 2rem;
+  display: flex;
+  border-top: 0.125px solid #eeeeee;
+  border-bottom: 0.125px solid #eeeeee;
+}
+.footer {
+  color: #555555;
+  padding-top: 1rem;
+}
+.bottom {
+  padding: 2rem 0;
+}
+.social > i {
+  padding-right: 0.5rem;
+}
+.right {
+  padding: 2rem 0;
+  display: flex;
+  flex-flow: row wrap;
+}
+.left {
+  padding: 2rem 0;
+}
+.list {
+  padding-right: 4rem;
+}
+.cap {
+  margin: 1rem 0;
+  font-weight: bolder;
+}
+.cap,
+.smal > div {
+  padding: 0.3rem;
+}
+.bottomHide {
+  display: none;
+}
+.button {
+  background: red;
+  width: 10rem;
+  height: 5rem;
+  border-radius: 4rem;
+  background-image: linear-gradient(to right, red, yellow);
+}
+.buttonText {
+  background: white;
+  width: 8rem;
+  height: 3rem;
+  border-radius: 2rem;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 48rem) {
+  body {
+    margin: 2rem;
+  }
+  .meniu i {
+    display: none;
+  }
+  .fuImage {
+    padding-left: 10rem;
+  }
+  .upshell {
+    border-radius: 1rem;
+  }
+  .graphic > img {
+    height: 30rem;
+    margin: 0;
+  }
+  .graphic {
+    display: flex;
+    justify-content: left;
+  }
+  .hero {
+    height: fit-content;
+  }
+  .Open {
+    display: contents;
+  }
+
+  .footerBox {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+  }
+  .bottomHide,
+  nav {
+    display: contents;
+  }
+  .bottom {
+    display: flex;
+    justify-content: space-between;
+  }
+  .boom > img {
+    width: 260px;
+    height: 50px;
+  }
+}
